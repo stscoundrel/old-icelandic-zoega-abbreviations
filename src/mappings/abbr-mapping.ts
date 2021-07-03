@@ -1,10 +1,10 @@
 export const getAbbreviationMapping = (): Map<string, string> => {
   const abbreviationMapping = new Map();
 
-  abbreviationMapping.set('e-t.', 'eitthvat.');
-  abbreviationMapping.set('e-m.', 'einhverjum.');
-  abbreviationMapping.set('e-s.', 'einhvers.');
-  abbreviationMapping.set('e-u.', 'einhverju.');
+  abbreviationMapping.set('e-t', 'eitthvat.');
+  abbreviationMapping.set('e-m', 'einhverjum.');
+  abbreviationMapping.set('e-s', 'einhvers.');
+  abbreviationMapping.set('e-u', 'einhverju.');
   abbreviationMapping.set('absol.', 'absolute, absolutely.');
   abbreviationMapping.set('acc.', 'accusative.');
   abbreviationMapping.set('adj.', 'adjective.');

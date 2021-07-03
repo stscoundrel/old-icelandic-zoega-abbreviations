@@ -11,10 +11,10 @@ describe('Abbreviation mapping tests', () => {
   test('Abbreviations in map expected content', () => {
     const resultMap = abbreviations.getAbbreviationMapping();
 
-    expect(resultMap.get('e-t.')).toBe('eitthvat.');
-    expect(resultMap.get('e-m.')).toBe('einhverjum.');
-    expect(resultMap.get('e-s.')).toBe('einhvers.');
-    expect(resultMap.get('e-u.')).toBe('einhverju.');
+    expect(resultMap.get('e-t')).toBe('eitthvat.');
+    expect(resultMap.get('e-m')).toBe('einhverjum.');
+    expect(resultMap.get('e-s')).toBe('einhvers.');
+    expect(resultMap.get('e-u')).toBe('einhverju.');
     expect(resultMap.get('absol.')).toBe('absolute, absolutely.');
     expect(resultMap.get('acc.')).toBe('accusative.');
     expect(resultMap.get('adj.')).toBe('adjective.');
